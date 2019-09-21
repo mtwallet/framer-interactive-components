@@ -1,0 +1,16 @@
+{
+  "name": "Framer Interactive Components",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "keywords": [
+    "design system"
+  ],
+  "scripts": {
+    "auth": "npx framer-cli authenticate nick.lansdell@alps.education",
+    "build": "npx framer-cli build $IC.framerfx",
+    "publish": "env FRAMER_TOKEN=6d18c4a3-d9b2-4812-84f2-164082eba10f npx framer-cli publish $IC.framerfx"
+  },
+  "author": "Alps - Alkemygold",
+  "license": "MIT"
+}
