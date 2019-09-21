@@ -1,16 +1,25 @@
 {
-  "main": "dist/index.js",
-  "license": "MIT",
-  "devDependencies": {
-    "@types/react": "^16.8"
-  },
-  "peerDependencies": {
-    "framer": "^1.0",
-    "react": "^16.8"
-  },
-  "author": "Alps - Alkemygold",
-  "dependencies": {
-    "interactive-components": "^0.1.2",
-    "styled-components": "^4.2.0"
-  }
+	"main": "dist/index.js",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/react": "^16.8",
+		"framer": "^1.0"
+	},
+	"peerDependencies": {
+		"framer": "^1.0",
+		"react": "^16.8"
+	},
+	"author": "Alps - Alkemygold",
+	"dependencies": {
+		"interactive-components": "^0.1.9",
+		"react": "^16.9.0",
+		"react-dom": "^16.9.0",
+		"styled-components": "^4.2.0"
+	},
+	"framer": {
+		"id": "d1502b59-49df-4f8a-b17e-245445fce483",
+		"displayName": "Buttons"
+	},
+	"name": "@framer/alpseducation.buttons",
+	"version": "1.4.0"
 }
