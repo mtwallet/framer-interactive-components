@@ -10,5 +10,11 @@
     "auth": "npx framer-cli authenticate nick.lansdell@alps.education",
     "build": "npx framer-cli build $IC.framerfx",
     "publish": "env FRAMER_TOKEN=6d18c4a3-d9b2-4812-84f2-164082eba10f npx framer-cli publish $IC.framerfx"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "styled-components": "^4.2.0",
+    "typescript": "^3.4.3"
   }
 }
