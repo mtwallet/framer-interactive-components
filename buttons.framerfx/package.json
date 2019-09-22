@@ -14,12 +14,13 @@
 		"interactive-components": "^0.1.9",
 		"react": "^16.9.0",
 		"react-dom": "^16.9.0",
-		"styled-components": "^4.2.0"
+		"styled-components": "^4.2.0",
+		"styled-system": "^5.1.2"
 	},
 	"framer": {
 		"id": "d1502b59-49df-4f8a-b17e-245445fce483",
 		"displayName": "Buttons"
 	},
 	"name": "@framer/alpseducation.buttons",
-	"version": "1.5.0"
+	"version": "1.6.0"
 }

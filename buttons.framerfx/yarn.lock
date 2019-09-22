@@ -224,7 +224,7 @@
     "@types/prop-types" "*"
     "@types/react" "*"
 
-"@types/react@*":
+"@types/react@*", "@types/react@^16.9.2":
   version "16.9.2"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-16.9.2.tgz#6d1765431a1ad1877979013906731aae373de268"
   integrity sha512-jYP2LWwlh+FTqGd9v7ynUKZzjj98T8x7Yclz479QdRhHfuW9yQ+0jjnD31eXSXutmBpppj5PYNLYLRfnZJvcfg==
@@ -356,12 +356,14 @@ has-flag@^3.0.0:
   integrity sha1-tdRU3CGZriJWmfNGfloH87lVuv0=
 
 interactive-components@^0.1.9:
-  version "0.1.13"
-  resolved "https://registry.yarnpkg.com/interactive-components/-/interactive-components-0.1.13.tgz#94bf0bfc0615613d87c1b26bf2edc99526eca44e"
-  integrity sha512-87+tlypxqSRf+LK1PWDOkH4QPuEj/dt33KHKq/+4nR1ZhqnLfgvIDSGuKoS1QjjJJjlZU5VNT3HFeJLWbTQtrw==
+  version "0.1.15"
+  resolved "https://registry.yarnpkg.com/interactive-components/-/interactive-components-0.1.15.tgz#e0c160103afda6317cc186d2fa2995a8df573509"
+  integrity sha512-xiWLdMOkfP/vqDUnUQDovxFEanMZf1AneRhtQw58HYsRhJE8OC5o5WyXLPVVBjZaePAv9vmUbs0k4qOQXLD5sA==
   dependencies:
+    "@types/react" "^16.9.2"
     "@types/styled-components" "^4.1.19"
     "@types/styled-system" "^5.1.1"
+    react "^16.9.0"
     styled-components "^4.3.2"
     styled-system "^5.1.2"
 

@@ -12,9 +12,11 @@
     "publish": "env FRAMER_TOKEN=6d18c4a3-d9b2-4812-84f2-164082eba10f npx framer-cli publish $IC.framerfx"
   },
   "dependencies": {
+    "interactive-components": "^0.1.15",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "styled-components": "^4.2.0",
+    "styled-system": "^5.1.2",
     "typescript": "^3.4.3"
   }
 }
